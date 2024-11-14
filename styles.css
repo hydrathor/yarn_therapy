@@ -164,3 +164,38 @@ h1 {
     font-size: 0.9rem;
     color: #555;
 }
+
+
+.footer {
+    color: #070707;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px; /* Add spacing above the footer */
+}
+
+.footer .social-links {
+    margin-bottom: 10px;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer .social-icon img {
+    transition: transform 0.3s;
+}
+
+.footer .social-icon img:hover {
+    transform: scale(1.1);
+}
+
+/* Optional styling to ensure footer stays at bottom on short pages */
+body, html {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;
+}
